@@ -1,0 +1,5 @@
+option('MSDFGEN_BUILD_MSDFGEN_STANDALONE', type : 'boolean', value : true, description : 'Build the msdfgen standalone executable')
+option('MSDFGEN_USE_OPENMP', type : 'boolean', value : false, description : 'Build with OpenMP support for multithreaded code')
+option('MSDFGEN_USE_CPP11', type : 'boolean', value : true, description : 'Build with C++11 enabled')
+option('FREETYPE_WITH_PNG', type : 'boolean', value : false, description : 'Link libpng and zlib because FreeType is configured to require it')
+option('FREETYPE_WITH_HARFBUZZ', type : 'boolean', value : false, description : 'Link HarfBuzz because FreeType is configured to require it')
